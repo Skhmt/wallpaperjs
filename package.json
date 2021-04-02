@@ -16,9 +16,8 @@
     "prebuild": "^10.0.0",
     "windows-build-tools": "^5.2.2"
   },
-  "author": "",
-  "license": "Proprietary",
-  "private": true,
+  "author": "github.com/Skhmt",
+  "license": "MIT",
   "gypfile": true,
   "binary": {
     "napi_versions": [
