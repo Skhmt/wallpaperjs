@@ -1,6 +1,6 @@
 # wallpaperjs
 
-builds a native .node file to set a wallpaper with windows
+builds a native .node file to set a wallpaper in windows
 
 made this in a few minutes, use at your own peril
 
