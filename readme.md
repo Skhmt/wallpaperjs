@@ -2,11 +2,11 @@
 
 Builds a native .node file to set a wallpaper with windows
 
-## install
+## install and build
 
 as admin: `npm install`
 
-## build
+## just build
 
 `npm install`
 
