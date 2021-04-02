@@ -1,0 +1,30 @@
+{
+  "name": "wallpaper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-gyp rebuild && node test.js",
+    "build-nw": "node-gyp rebuild && prebuild -t 0.44.6 -r node-webkit",
+    "build-node": "node-gyp rebuild && prebuild -t 5 -r napi",
+    "build-electron": "node-gyp rebuild && prebuild -t 7.1.2 -r electron"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^1.0.0",
+    "node-gyp": "^7.0.0",
+    "prebuild": "^10.0.0",
+    "windows-build-tools": "^5.2.2"
+  },
+  "author": "",
+  "license": "Proprietary",
+  "private": true,
+  "gypfile": true,
+  "binary": {
+    "napi_versions": [
+      3,
+      4,
+      5
+    ]
+  }
+}
