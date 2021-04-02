@@ -12,7 +12,7 @@ as admin: `npm install`
 
 ## deploy in prod
 
-- build
+- install
 - `npm run build-node` or `-nw` for nw.js or `-electron` for electron
 - go to `/prebuilds`
 - find the .tar.gz and get `wallpaper.node` from it
