@@ -1,7 +1,7 @@
 {
-  "name": "wallpaper",
+  "name": "wallpaperjs",
   "version": "0.1.0",
-  "description": "",
+  "description": "sets your wallpaper",
   "main": "index.js",
   "scripts": {
     "test": "node-gyp rebuild && node test.js",
