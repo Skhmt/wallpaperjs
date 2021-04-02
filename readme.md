@@ -13,15 +13,17 @@ as admin: `npm install`
 ## deploy in prod
 
 - build
-- grab wallpaper.node from `build\Release\wallpaper.node`
-- use in a real application with:
+- `npm run build-node` or `-nw` for nw.js or `-electron` for electron
+- go to `/prebuilds`
+- find the .tar.gz and get `wallpaper.node` from it
+- move it to your project; you won't need the rest of this project
 
 ```
 const wp = require('./wallpaper.node')
 wp.set('full\\path\\to\\wallpaper.jpg')
 ```
 
-don't require this project as a whole - it's set up to build and test the .node file, not deploy it directly
+DO NOT require this project as a whole - it's set up to build and test the .node file, not deploy it directly
 
 ## todo
 
