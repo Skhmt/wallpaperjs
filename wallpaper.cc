@@ -30,4 +30,4 @@ Napi::Object Init(Napi::Env env, Napi::Object exports) {
     return exports;
 }
 
-NODE_API_MODULE(winbot, Init) // lack of semi-colon is intentional
+NODE_API_MODULE(NODE_GYP_MODULE_NAME, Init) // lack of semi-colon is intentional
